@@ -1,0 +1,56 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/inline.5935cf030daac2dd1899.bundle.js",
+        "/main.7c11a667ebad34b94708.bundle.js",
+        "/polyfills.f20484b2fa4642e0dca8.bundle.js",
+        "/styles.9c0ad738f18adc3d19ed.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/css/bootstrap.min.css",
+        "/assets/css/style.css",
+        "/assets/images/bg.jpg",
+        "/assets/images/coltuser.jpg",
+        "/assets/images/c_logo.jpg",
+        "/assets/images/header_bg.jpg",
+        "/assets/images/logo.jpg",
+        "/assets/js/bootstrap.min.js"
+      ],
+      "patterns": [
+        "https:\\/\\/maxcdn\\.bootstrapcdn\\.com\\/font-awesome\\/4\\.7\\.0\\/css\\/font-awesome\\.min\\.css",
+        "https:\\/\\/ajax\\.googleapis\\.com\\/ajax\\/libs\\/jquery\\/1\\.12\\.4\\/jquery\\.min\\.js"
+      ]
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/inline.5935cf030daac2dd1899.bundle.js": "ec6f5ed968c9ced910afe63913d561ac3539748a",
+    "/assets/css/bootstrap.min.css": "895125a4522a3b10ee7ada06ee6503587cbf95c5",
+    "/main.7c11a667ebad34b94708.bundle.js": "ec129055d23160774975e55022d146859bb83c0f",
+    "/assets/css/style.css": "5cc3c541c9b749000b5c352af6eebae415e7731f",
+    "/polyfills.f20484b2fa4642e0dca8.bundle.js": "0b0af365e031b7cbba789493d311e94192720c68",
+    "/assets/images/bg.jpg": "ac168d08f51120856b3559fbe1aa8794965db50b",
+    "/styles.9c0ad738f18adc3d19ed.bundle.css": "e392ebe39e63c70b434f71bbe87278aa9aa641c0",
+    "/assets/images/coltuser.jpg": "fd25be78d56aa2e9e0b8550bdbf19b32bea9749f",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/assets/images/c_logo.jpg": "f7a9f6704df1a5c105e840e1bf744b27f082eab0",
+    "/index.html": "61dc96904d22e20c278de7cb09eef3df07e077b5",
+    "/assets/images/header_bg.jpg": "d85ae849e849ad15b27ff6ccc27ca6d6902cc53b",
+    "/assets/images/logo.jpg": "f73551f6d67c8594699aa36521e65d36443cd4bd",
+    "/assets/js/bootstrap.min.js": "a9545831803b1359cfeed47e3b4d6bae68e40e99"
+  }
+}

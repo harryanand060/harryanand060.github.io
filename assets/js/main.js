@@ -54,7 +54,7 @@ jQuery(document).on('ready', function ($) {
     /*---------------------------
         TESTMONIAL SLIDER
     -----------------------------*/
-    $('.testmonial-member-image-slider').slick({
+ /*   $('.testmonial-member-image-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
@@ -85,7 +85,7 @@ jQuery(document).on('ready', function ($) {
         centerMode: false,
         focusOnSelect: true,
         asNavFor: '.testmonial-member-image-slider , .testmonial-text-slider'
-    });
+    });*/
 
 
     /*---------------------------
@@ -105,18 +105,20 @@ jQuery(document).on('ready', function ($) {
     });
 
 
-    /*---------------------------
+/*
+    /!*---------------------------
         COUNTER UP TIMER
-    -----------------------------*/
+    -----------------------------*!/
     $('.counter').counterUp({
         delay: 10,
         time: 1000
     });
+*/
 
 
-    /*--------------------------------
+    /*/!*--------------------------------
         PORTFOLIO MASONRY ACTIVE
-    ---------------------------------*/
+    ---------------------------------*!/
     var $boxes = $('.portfolio-items');
     $boxes.hide();
 
@@ -131,9 +133,9 @@ jQuery(document).on('ready', function ($) {
     });
 
 
-    /*------------------------------
+    /!*------------------------------
         GALLERY IMAGES POPUP
-    -------------------------------*/
+    -------------------------------*!/
     $('.portfolio-popup').magnificPopup({
         type: 'image',
         removalDelay: 500, //delay removal by X to allow out-animation
@@ -149,13 +151,13 @@ jQuery(document).on('ready', function ($) {
         },
         closeOnContentClick: true,
         midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-    });
+    });*/
 
 
     /*--------------------------
         ACTIVE WOW JS
     ----------------------------*/
-    new WOW().init();
+/*    new WOW().init();*/
 
 }(jQuery));
 

@@ -1,27 +1,27 @@
 {
-  "name": "Progressive Web",
-  "short_name": "PWA",
+  "name": "Anand Kumar",
+  "short_name": "AK",
   "description": "A funny cat image generator",
   "icons": [
     {
-      "src": "assets/images/logo.jpg",
+      "src": "assets/images/logo.png",
       "sizes": "128x128",
-      "type": "image/jpg"
+      "type": "image/png"
     },
     {
-      "src": "assets/images/logo.jpg",
+      "src": "assets/images/logo.png",
       "sizes": "152x152",
-      "type": "image/jpg"
+      "type": "image/png"
     },
     {
-      "src": "assets/images/logo.jpg",
+      "src": "assets/images/logo.png",
       "sizes": "256x256",
-      "type": "image/jpg"
+      "type": "image/png"
     },
     {
-      "src": "assets/images/logo.jpg",
+      "src": "assets/images/logo.png",
       "sizes": "512x512",
-      "type": "image/jpg"
+      "type": "image/png"
     }
   ],
   "start_url": "index.html",
